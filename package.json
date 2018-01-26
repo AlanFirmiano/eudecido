@@ -1,0 +1,36 @@
+{
+  "name": "eudecido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start app.js --name servico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanFirmiano/eudecido.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanFirmiano/eudecido/issues"
+  },
+  "homepage": "https://github.com/AlanFirmiano/eudecido#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-query-int": "^2.0.0",
+    "fast-csv": "^2.4.1",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.1",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
